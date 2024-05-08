@@ -8,7 +8,7 @@ function Login() {
       return (
             <div className='login w-100 bg-primary d-flex align-items-center justify-content-center'>
                   <div className="form rounded-2 pt-3 pb-3">
-                        <div className="title text-center">
+                        <div className="login-title text-center">
                               <h3>Tizimga kirish</h3>
                         </div>
                         <form className='ps-5 pe-5 pt-4 d-flex flex-column gap-3'>
