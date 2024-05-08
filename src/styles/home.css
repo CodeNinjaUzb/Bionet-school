@@ -1,0 +1,35 @@
+.logo{
+      width: 10%;
+}
+.left{
+     width: 300px; 
+}
+.medium{
+      width: 70%;
+      border: 0.5px solid black;
+      border-top: none;
+}
+.right{
+      width: 300px !important;
+}
+.title{
+      background: #DFF0D8;
+}
+.title h3{
+      color: #000066;
+}
+.regions{
+      gap: 1px;
+}
+.region{
+      background: #F4FEFF;
+      text-align: center;
+      border: 1px solid #000066;
+      padding: 10px 0;
+}
+.reg-name{
+      font-weight: bold;
+}
+li{
+      margin-top: 10px;
+}

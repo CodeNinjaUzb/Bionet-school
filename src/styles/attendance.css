@@ -1,0 +1,20 @@
+.attendance-table{
+      width: 100%;
+}
+.attendance-table-head{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 15px 30px;
+}
+.head-item{
+      background-color: transparent;
+}
+.head-item p{
+      background-color: transparent;
+}
+.attendance-table-body{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 15px 30px;
+      border: 1px solid rgba(0, 0, 0, 0.255);
+}

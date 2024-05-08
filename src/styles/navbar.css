@@ -1,0 +1,15 @@
+.navbar{
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.profile-img{
+      width: 40px;
+      height: 40px;
+      border: 1px solid rgba(0, 0, 0, 0.255);
+      border-radius: 50%;
+}
+.name{
+      cursor: pointer;
+}
+.school-name{
+      font-weight: normal;
+}
