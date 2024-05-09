@@ -1,5 +1,5 @@
 .pupil-table-head{
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .pupil-table-body{
       height: 450px;
@@ -12,9 +12,15 @@
       background: dodgerblue;
 }
 .pupil-table-body-row{
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       align-items: center;
 }
 i{
+      cursor: pointer;
+}
+.pupil-img{
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
       cursor: pointer;
 }
