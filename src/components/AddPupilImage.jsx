@@ -21,7 +21,7 @@ function AddPupilImage({setAddPupilImage , info}) {
             formdata.append('id' , info.id)
             formdata.append('image' , file)
 
-            axios.post('http://95.46.96.110:8000/api/v1/addpupillist/1/', {formdata}, {
+            axios.post('http://95.46.96.110:8000/api/v1/addpupilimage/', {formdata}, {
                   headers: {
                         'username': 'user@API',
                         'password': 'APIUser@API'
