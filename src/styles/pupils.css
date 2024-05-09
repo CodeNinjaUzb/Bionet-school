@@ -1,0 +1,20 @@
+.pupil-table-head{
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.pupil-table-body{
+      height: 450px;
+      overflow-y: scroll;
+}
+.pupil-table-body::-webkit-scrollbar{
+      width: 5px;
+}
+.pupil-table-body::-webkit-scrollbar-thumb{
+      background: dodgerblue;
+}
+.pupil-table-body-row{
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      align-items: center;
+}
+i{
+      cursor: pointer;
+}

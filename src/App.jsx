@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Attendance from './pages/Attendance'
 import Mainpage from './pages/Mainpage'
+import DashboardPage from './pages/Dashboard'
+import Pupils from './pages/Pupils'
 
 function App() {
   
@@ -15,6 +17,8 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/admin' element={<Mainpage />} />
           <Route path='/attendance' element={<Attendance />}/>
+          <Route path='/dashboard' element={<DashboardPage />}/>
+          <Route path='/pupils' element={<Pupils />} />
         </Routes>
     </div>
   )

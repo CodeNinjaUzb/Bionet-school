@@ -1,7 +1,7 @@
 .logo{
       width: 10%;
 }
-.left{
+.main-left{
      width: 300px; 
 }
 .medium{
@@ -9,7 +9,7 @@
       border: 0.5px solid black;
       border-top: none;
 }
-.right{
+.main-right{
       width: 300px !important;
 }
 .title{
@@ -25,7 +25,6 @@
       background: #F4FEFF;
       text-align: center;
       border: 1px solid #000066;
-      padding: 10px 0;
 }
 .reg-name{
       font-weight: bold;
