@@ -7,6 +7,8 @@ import Mainpage from './pages/Mainpage'
 import DashboardPage from './pages/Dashboard'
 import Pupils from './pages/Pupils'
 import Devices from './pages/Devices'
+import Classes from './pages/Classes'
+import Schools from './pages/Schools'
 
 function App() {
   
@@ -21,6 +23,8 @@ function App() {
           <Route path='/dashboard' element={<DashboardPage />}/>
           <Route path='/pupils' element={<Pupils />} />
           <Route path='/devices' element={<Devices />} />
+          <Route path='/schools' element={<Schools />} />
+          <Route path='/classes' element={<Classes />} />
         </Routes>
     </div>
   )

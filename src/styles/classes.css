@@ -1,0 +1,6 @@
+.classes-table-head{
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.classes-table-body-row{
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}

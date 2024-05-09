@@ -21,6 +21,10 @@ function Sidebar() {
                         <Link to="/devices" className='text-decoration-none text-light'>Qurilmalar</Link>
                   </button>
                   <button className="btn btn-primary pt-1 pb-1 ps-3 pe-3 d-flex align-items-center justify-content-center gap-3">
+                        <i className="fa-solid fa-school"></i>
+                        <Link to="/schools" className='text-decoration-none text-light'>Maktablar</Link>
+                  </button>
+                  <button className="btn btn-primary pt-1 pb-1 ps-3 pe-3 d-flex align-items-center justify-content-center gap-3">
                         <i className="fa-solid fa-list"></i>
                         <Link to="/classes" className='text-decoration-none text-light'>Sinflar</Link>
                   </button>

@@ -1,0 +1,6 @@
+.schools-table-head{
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.schools-table-body-row{
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
