@@ -9,6 +9,7 @@ import Pupils from './pages/Pupils'
 import Devices from './pages/Devices'
 import Classes from './pages/Classes'
 import Schools from './pages/Schools'
+import Settings from './pages/Settings'
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
           <Route path='/devices' element={<Devices />} />
           <Route path='/schools' element={<Schools />} />
           <Route path='/classes' element={<Classes />} />
+          <Route path='/settings' element={<Settings />} />
         </Routes>
     </div>
   )

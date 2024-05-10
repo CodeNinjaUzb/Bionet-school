@@ -8,7 +8,7 @@ function DeleteSchool({ setDeleteSchool , info }) {
 
 
       const removeSchool = () => {
-            axios.delete(`http://95.46.96.110:8000/api/v1/deletedevice/${info.id}/`, {
+            axios.delete(`http://95.46.96.110:8000/api/v1/deleteschool/${info.id}/`, {
                   headers: {
                         'username': 'user@API',
                         'password': 'APIUser@API'
