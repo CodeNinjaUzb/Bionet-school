@@ -15,8 +15,7 @@ function Attendance() {
       const getAttendance = () => {
             axios.get('http://95.46.96.110:8000/api/v1/getattendance/', {
                     headers: {
-                        "Username": "user@API",
-                        "Password": "APIUser@API"
+                        "Authorization" : 'Token eb577759f4ca0dde05b02ea699892ee560920594'
                     }
                 } , data)
                 .then(response => {
@@ -42,7 +41,6 @@ function Attendance() {
             <div className="right">
                   <Navbar />
                   <div className='attendance p-5'>
-                        <button onClick={()=>getAttendance()}>Click</button>
                               <div className="attendance-table">
                                     <div className="attendance-table-head bg-primary">
                                           <div className="head-item text-center">

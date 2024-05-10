@@ -35,8 +35,7 @@ function AddPupil({setAddPupil}) {
       const addPupil = () => {
             axios.post('http://95.46.96.110:8000/api/v1/addpupil/', {data}, {
                   headers: {
-                        'username': 'user@API',
-                        'password': 'APIUser@API'
+                        "Authorization" : 'Token eb577759f4ca0dde05b02ea699892ee560920594'
                   }
             }).then(data => {console.log(
                   data

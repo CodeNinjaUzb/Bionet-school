@@ -12,10 +12,10 @@ function Sidebar() {
                   </Link>
             </div>
             <div className="menu d-flex flex-column gap-3">
-                  <button className="btn btn-primary pt-1 pb-1 ps-3 pe-3 d-flex align-items-center justify-content-center gap-3">
+                  {/* <button className="btn btn-primary pt-1 pb-1 ps-3 pe-3 d-flex align-items-center justify-content-center gap-3">
                         <i className="fa-solid fa-chart-line"></i>
                         <Link to="/dashboard" className='text-decoration-none text-light'>Dashboard</Link>
-                  </button>
+                  </button> */}
                   <button className="btn btn-primary pt-1 pb-1 ps-3 pe-3 d-flex align-items-center justify-content-center gap-3">
                         <i className="fa-solid fa-mobile"></i>
                         <Link to="/devices" className='text-decoration-none text-light'>Qurilmalar</Link>

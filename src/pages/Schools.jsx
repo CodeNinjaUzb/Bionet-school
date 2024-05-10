@@ -19,7 +19,7 @@ function Schools() {
       useEffect(() => {
             axios.get('http://95.46.96.110:8000/api/v1/getschools/2', {
                   headers: {
-                        'Authorization': 'Basic dXNlckBBUEk6QVBJVXNlckBBUEk='
+                        'Authorization': 'Token eb577759f4ca0dde05b02ea699892ee560920594'
                   }
             })
                   .then(data => { console.log(data); setSchools(data.data) })

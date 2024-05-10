@@ -4,6 +4,7 @@ import { UserOutlined } from '@ant-design/icons';
 import { Input } from 'antd';
 import { Link, useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
+import axios from 'axios';
 
 function Login() {
 
@@ -18,15 +19,13 @@ function Login() {
             const newData = { ...data };
             newData[e.target.id] = e.target.value;
             setData(newData);
+            console.log(data);
       } 
 
       function login () {
-            if(data.username === 'user@API' && data.password === 'APIUser@API'){
-                  toast.success('Tizimga muvaffaqiyatli kirildi !')
-                  navigate('/admin')
-            }else{
-                  toast.error('Login yoki parol notogri !')
-            }
+            axios.post('http://95.46.96.110:8000/api/v1/api-token-auth/' , {data}) 
+            .then(data => {console.log(data);})
+            .catch(err => {console.log(err);})
       }
 
       return (
